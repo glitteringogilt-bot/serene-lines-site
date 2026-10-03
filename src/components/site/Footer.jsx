@@ -8,7 +8,7 @@ export const Footer = () => (
     <div className="mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12">
       <div className="grid gap-12 border-b border-[#2D1B4E]/15 pb-16 md:grid-cols-12">
         <div className="md:col-span-5">
-          <img src="/art/logo.webp" alt="Serene Lines logo" className="w-[140px]" data-testid="footer-logo" />
+          <img src="art/logo.webp" alt="Serene Lines logo" className="w-[140px]" data-testid="footer-logo" />
           <p className="mt-6 font-display text-2xl italic text-[#2D1B4E]">Art in your everyday.</p>
           <p className="mt-2 text-sm text-[#584870]">Graphic Design &amp; Digital Illustration for Custom Merchandise</p>
           <p className="mt-1 text-sm font-semibold text-[#2D1B4E]">Shana Volner</p>

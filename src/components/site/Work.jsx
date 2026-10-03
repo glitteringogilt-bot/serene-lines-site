@@ -7,31 +7,31 @@ const PROJECTS = [
     id: "01", category: "Custom Merchandise", title: "From Illustration to Product",
     text: "A look at how an illustrated concept develops into a finished merchandise design.",
     tags: ["Digital illustration", "Creative development", "Merchandise design", "Production preparation"],
-    img: "/art/stage.webp", alt: "Stage performer character illustration",
+    img: "art/stage.webp", alt: "Stage performer character illustration",
   },
   {
     id: "02", category: "Character Illustration", title: "Building Personality Through Illustration",
     text: "Character artwork that explores visual storytelling through shape, color, line, and personality.",
     tags: ["Character design", "Digital illustration", "Color selection", "Visual storytelling"],
-    img: "/art/trio.webp", alt: "Trio of characters illustration",
+    img: "art/trio.webp", alt: "Trio of characters illustration",
   },
   {
     id: "03", category: "Production & Design", title: "Creative Work That Is Ready to Make",
     text: "Design work focused on the technical side of bringing artwork into physical production.",
     tags: ["Vector preparation", "File organization", "Print setup", "Manufacturing preparation"],
-    img: "/art/mermaid.webp", alt: "Clean mermaid line art",
+    img: "art/mermaid.webp", alt: "Clean mermaid line art",
   },
 ];
 
 const ILLUSTRATIONS = [
-  { src: "/art/stage.webp", alt: "Stage performer character illustration", title: "Illustration 01", note: "Digital illustration" },
-  { src: "/art/trio.webp", alt: "Trio of characters illustration", title: "Illustration 02", note: "Character illustration" },
-  { src: "/art/mermaid.webp", alt: "Mermaid line art", title: "Illustration 03", note: "Line art" },
-  { src: "/art/character-portrait.webp", alt: "Dramatic dark character portrait with glowing stage lights", title: "Illustration 04", note: "Character portrait" },
-  { src: "/art/cafe-character.webp", alt: "Pink character enjoying a dessert in a bright café", title: "Illustration 05", note: "Character illustration" },
-  { src: "/art/character-trio.webp", alt: "Three dramatic fantasy characters in a dark scene", title: "Illustration 06", note: "Character illustration" },
-  { src: "/art/mermaid-line-art.webp", alt: "Expressive mermaid character line drawing", title: "Illustration 07", note: "Line art" },
-  { src: "/art/holiday-character-group.webp", alt: "Ensemble of colorful characters on a warm peach background", title: "Illustration 08", note: "Character design" },
+  { src: "art/stage.webp", alt: "Stage performer character illustration", title: "Illustration 01", note: "Digital illustration" },
+  { src: "art/trio.webp", alt: "Trio of characters illustration", title: "Illustration 02", note: "Character illustration" },
+  { src: "art/mermaid.webp", alt: "Mermaid line art", title: "Illustration 03", note: "Line art" },
+  { src: "art/character-portrait.webp", alt: "Dramatic dark character portrait with glowing stage lights", title: "Illustration 04", note: "Character portrait" },
+  { src: "art/cafe-character.webp", alt: "Pink character enjoying a dessert in a bright café", title: "Illustration 05", note: "Character illustration" },
+  { src: "art/character-trio.webp", alt: "Three dramatic fantasy characters in a dark scene", title: "Illustration 06", note: "Character illustration" },
+  { src: "art/mermaid-line-art.webp", alt: "Expressive mermaid character line drawing", title: "Illustration 07", note: "Line art" },
+  { src: "art/holiday-character-group.webp", alt: "Ensemble of colorful characters on a warm peach background", title: "Illustration 08", note: "Character design" },
 ];
 
 const ProjectRow = ({ p, i }) => (
@@ -79,10 +79,10 @@ const DigitalGrid = () => (
 );
 
 const KEYCHAINS = [
-  { n: "01", base: "/art/kc1-base.webp", product: "/art/kc1-keychain.webp", productLabel: "Keychain mockup" },
-  { n: "02", base: "/art/kc2-base.webp", product: "/art/kc2-keychain.webp", productLabel: "Finished keychain" },
-  { n: "03", base: "/art/kc3-base-design.webp", product: "/art/kc3-finished-keychain.webp", productLabel: "Finished keychain" },
-  { n: "04", base: "/art/holiday-character-group.webp", product: "/art/kc4-finished-keychain.webp", productLabel: "Finished keychain" },
+  { n: "01", base: "art/kc1-base.webp", product: "art/kc1-keychain.webp", productLabel: "Keychain mockup" },
+  { n: "02", base: "art/kc2-base.webp", product: "art/kc2-keychain.webp", productLabel: "Finished keychain" },
+  { n: "03", base: "art/kc3-base-design.webp", product: "art/kc3-finished-keychain.webp", productLabel: "Finished keychain" },
+  { n: "04", base: "art/holiday-character-group.webp", product: "art/kc4-finished-keychain.webp", productLabel: "Finished keychain" },
 ];
 
 const KeychainFrame = ({ src, label, alt, testid }) => (

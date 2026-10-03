@@ -38,7 +38,7 @@ export const Nav = () => {
     >
       <nav className="mx-auto flex max-w-[1400px] items-center justify-between px-5 py-2 sm:px-8 lg:px-12">
         <button onClick={() => go("#home")} className="flex items-center gap-3" data-testid="nav-logo" aria-label="Serene Lines home">
-          <img src="/art/logo.webp" alt="Serene Lines logo" className="h-14 w-auto sm:h-16" />
+          <img src="art/logo.webp" alt="Serene Lines logo" className="h-14 w-auto sm:h-16" />
           <span className="hidden font-display text-lg font-bold tracking-tight text-[#2D1B4E] sm:block">Serene Lines</span>
         </button>
 

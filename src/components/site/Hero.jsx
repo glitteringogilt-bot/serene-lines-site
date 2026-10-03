@@ -31,7 +31,7 @@ const ArtStack = () => {
           style={{ transform: "translateZ(-40px)" }}
           className="absolute -left-2 top-10 h-[62%] w-[52%] overflow-hidden rounded-[2px] shadow-[0_30px_60px_-20px_rgba(45,27,78,0.5)] sm:-left-10"
         >
-          <TintImage src="/art/trio.webp" alt="Character trio illustration by Shana Volner" className="h-full w-full" testid="hero-image-trio" eager />
+          <TintImage src="art/trio.webp" alt="Character trio illustration by Shana Volner" className="h-full w-full" testid="hero-image-trio" eager />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 80, clipPath: "inset(100% 0 0 0)" }}
@@ -40,7 +40,7 @@ const ArtStack = () => {
           style={{ transform: "translateZ(40px)" }}
           className="absolute bottom-0 right-0 h-[82%] w-[72%] overflow-hidden rounded-[2px] shadow-[0_40px_80px_-24px_rgba(45,27,78,0.55)]"
         >
-          <TintImage src="/art/stage.webp" alt="Stage performer character illustration by Shana Volner" className="h-full w-full" testid="hero-image-stage" eager />
+          <TintImage src="art/stage.webp" alt="Stage performer character illustration by Shana Volner" className="h-full w-full" testid="hero-image-stage" eager />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.6 }}
